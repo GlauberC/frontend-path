@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Curso de CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #basico h2{
+            background-color: blue
+        }
+    </style>
+</head>
+<body>
+    <div id = "basico">
+        <h1>Basico</h1>
+        <h2 style = "background-color: red;">Css inline</h2>
+        <h2>Dentro do html</h2>
+        <h3 id = "css-separado">css separado</h3>
+    </div>
+    <hr>
+
+    <div">
+        <h1>Seletores</h1>
+        <p id = "seletor-id">
+            Id
+        </p>
+        <p class = "seletor-classe">
+            classe
+        </p>
+        <input type = "text" value = "Seletor por atributo">
+        <p>* é o seletor universal</p>
+        <h2 class = "seletores">Agrupamento de </h2>
+        <h3 class = "seletores">seletores</h3>
+    </div>
+    <hr>
+    
+    <div class = "dimensao">
+        <div class = "dim1">
+
+        </div>
+        <div class = "dim2">
+            <p>
+                    Lorem ipsum vulputate aptent commodo pellentesque dapibus posuere,
+                    praesent purus vehicula mauris proin neque ultrices, nisi habitant malesuada turpis ante eros.
+                    quam congue aliquam per lacinia varius etiam purus aenean tortor primis ipsum bibendum class elit,
+                    quisque est integer morbi nunc placerat morbi bibendum ut etiam adipiscing dapibus sapien.
+                    quisque nec dapibus ligula malesuada posuere, lacus fermentum ad commodo orci consequat,
+                    nisl purus integer proin. feugiat dapibus ornare aliquet lacinia mi justo proin sed sem,
+                    adipiscing tortor pellentesque cursus quam arcu mauris nisl, eros ut taciti tortor pretium at quisque aenean. 
+            </p>
+        </div>
+    </div>
+    <hr>
+    <div class = "margin-padding">
+        <h1>Margin e padding</h1>
+        <div class = "test-padding">
+            <p>Padding</p>
+        </div>
+        <div class = "test-margin">
+            <p>Margin</p>
+        </div>
+
+    </div>
+    <hr>
+
+    <div class = "propriedades-texto">
+        <h1>Propriedades de Texto</h1>
+        <p class = "textalign-L">Text Align L, Text-decoration underline</p>
+        <p class = "textalign-C">Text Align C, Text-decoration overline</p>
+        <p class = "textalign-R">Text Align R, Text-decoration line-through</p>
+        <p>
+            Text-transform: <span class = "minus">MINUSCULA</span>, <span class = "maius">maiuscula</span>, <span class = "capi">capitalize</span>
+        </p>
+        <p class="textind-lineheig">
+                TextIndent e line-height Lorem ipsum vulputate aptent commodo pellentesque dapibus posuere,
+                praesent purus vehicula mauris proin neque ultrices, nisi habitant malesuada turpis ante eros.
+                quam congue aliquam per lacinia varius etiam purus aenean tortor primis ipsum bibendum class elit,
+                quisque est integer morbi nunc placerat morbi bibendum ut etiam adipiscing dapibus sapien.
+                quisque nec dapibus ligula malesuada posuere, lacus fermentum ad commodo orci consequat,
+        </p>
+        <p class = "ltr">Direction: ltr</p>
+        <p class = "rtl">Direction: rtl</p>
+        <p class = "letterspc">letterspacing</p>
+        <p class = "wordspc">word spacing</p>
+        <p class = "txtshad">Text shadow</p>
+    </div>
+    <hr>
+
+    <div>
+        <h1> Boxsizing boxshadow opacity</h1>
+        <div class = "sboxsiz">
+            <p>Sem box sizing. width(500) + padding(100) = 600px</p>
+        </div>
+        <div class = "cboxsiz">
+                <p>Com box sizing. width(500) + padding(100) = 500px</p>
+        </div>
+        <div class = "boxshadow">
+                <p>BoxShadow</p>
+        </div>
+        <div class = "opacity">
+                <p>Opacity</p>
+        </div>
+    </div>
+    <hr>
+
+    <div>
+        <h1>Overflow</h1>
+        <div class = "soverflow">
+                <p>
+                        Sem overflow Lorem ipsum vulputate aptent commodo pellentesque dapibus posuere,
+                        praesent purus vehicula mauris proin neque ultrices, nisi habitant malesuada turpis ante eros.
+                        quam congue aliquam per lacinia varius etiam purus aenean tortor primis ipsum bibendum class elit,
+                        quisque est integer morbi nunc placerat morbi bibendum ut etiam adipiscing dapibus sapien.
+                        quisque nec dapibus ligula malesuada posuere, lacus fermentum ad commodo orci consequat,
+                </p>
+        </div>
+
+        <div class = "overflow-hidden">
+                <p>
+                        overflow hidden Lorem ipsum vulputate aptent commodo pellentesque dapibus posuere,
+                        praesent purus vehicula mauris proin neque ultrices, nisi habitant malesuada turpis ante eros.
+                        quam congue aliquam per lacinia varius etiam purus aenean tortor primis ipsum bibendum class elit,
+                        quisque est integer morbi nunc placerat morbi bibendum ut etiam adipiscing dapibus sapien.
+                        quisque nec dapibus ligula malesuada posuere, lacus fermentum ad commodo orci consequat,
+                </p>
+        </div>
+        <div class = "overflow-auto">
+                <p>
+                        overflow auto Lorem ipsum vulputate aptent commodo pellentesque dapibus posuere,
+                        praesent purus vehicula mauris proin neque ultrices, nisi habitant malesuada turpis ante eros.
+                        quam congue aliquam per lacinia varius etiam purus aenean tortor primis ipsum bibendum class elit,
+                        quisque est integer morbi nunc placerat morbi bibendum ut etiam adipiscing dapibus sapien.
+                        quisque nec dapibus ligula malesuada posuere, lacus fermentum ad commodo orci consequat,
+                </p>
+        </div>
+    </div>
+    
+</body>
+</html>
