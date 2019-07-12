@@ -1,0 +1,26 @@
+:root{
+    --tamanho-tela: 800px;
+}
+
+*{
+    font-size: 100%
+}
+body{
+    background-color: #E2EBED;
+}
+.all-page{
+    background-color: white;
+    width: var(--tamanho-tela);
+    margin: 0 auto;
+}
+.css-span{
+    text-transform: uppercase;
+    text-decoration: underline dotted;
+}
+a{
+    text-decoration: underline;
+    color: rgb(13, 116, 116)
+}
+a:hover{
+    color: rgb(161, 13, 13);
+}

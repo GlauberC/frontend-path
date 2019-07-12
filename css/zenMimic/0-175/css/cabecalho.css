@@ -1,0 +1,54 @@
+.titulo-page{
+    font-size: 2.0em;
+}
+.subtitulo-page{
+    font-size: 1em;
+}
+.download-msg{
+    float: right;
+}
+.cabecalho{
+    height: 300px;
+}
+.apresentacao{
+    width: calc(var(--tamanho-tela) - 40px);
+    margin: 0 auto;
+    background-color: lightcoral;
+}
+.titulos{
+    margin: 0px 50px;
+    padding-top: 20px;
+    height: 50px;
+}
+.download-msg{
+    margin: 0px 50px;
+    font-size: 0.9em;
+}
+.msg-apresentacao{
+    margin-top: 30px;
+    width:  182px;
+    float: left;
+    padding: 20px 30px 37px 30px;
+    border-radius: 10px 0px 0px 10px;
+
+    line-height: 1.3em;
+    font-size: 1em;
+    background-color: #317082;
+    color: white;
+    
+}
+.img-apresentacao{
+    margin-top: 16px;
+    width:  518px;
+    height: 176px;
+    float: right;
+    
+    background-image: url('../img/pessoas.png');
+    background-repeat: no-repeat;
+    background-size: 520px 176px;
+}
+.css-span-titulo{
+    color: #134D5D;
+    text-transform: uppercase;
+    font-size: 0.7em
+}
