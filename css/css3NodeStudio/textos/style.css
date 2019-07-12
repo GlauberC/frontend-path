@@ -1,0 +1,44 @@
+
+/* Propriedades de texto */
+    .textalign-L{
+        text-align: left;
+        text-decoration: underline;
+    }
+    .textalign-C{
+        text-align: center;
+        text-decoration: overline;
+
+    }
+    .textalign-R{
+        text-align: right;
+        text-decoration: line-through;
+    }
+    .minus{
+        text-transform: lowercase;
+    }
+    .maius{
+        text-transform: uppercase;
+    }
+    .capi{
+        text-transform: capitalize;
+    }
+    .textind-lineheig{
+        text-indent: 20px;
+        line-height: 30px;
+    }
+    .rtl{
+        direction: rtl;
+    }
+    .ltr{
+        direction: ltr;
+    }
+    .letterspc{
+        letter-spacing: 10px;
+    }
+    .wordspc{
+        word-spacing: 40px;
+    }
+    .txtshad{
+        text-shadow: 1px 1px 1px red
+        /* Horizontal vertical blur cor */
+    }

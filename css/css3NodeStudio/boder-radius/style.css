@@ -1,0 +1,23 @@
+div{
+    width: 300px;
+    height: 300px;
+    background-color: lightcoral;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.div1{
+    border-radius: 20px;
+}
+.div2{
+    border-radius: 20px 50px;
+     /* sup-dir_inf-esq  sup-esq_inf-dir*/ 
+}
+.div3{
+    border-radius: 0px 20px 0px 50px
+    /* sup-esq sup-dir inf-dir inf-esq */
+}
+.div4{
+    border-top-right-radius: 40px;
+}

@@ -1,0 +1,50 @@
+.div1{
+    background-color: lightblue;
+    width: 50px;
+    height: 50px;
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in;
+}
+.div1:hover{
+    background: blue;
+}
+
+
+.div2{
+    background-color: lightsalmon;
+    width: 50px;
+    height: 50px;
+    transition: width 2s linear 1s;
+}
+.div2:hover{
+    background-color: brown;
+    width: 200px;
+}
+
+
+.div3{
+    background-color: lightslategray;
+    width: 50px;
+    height: 50px;
+    transition: all 2s linear 1s;
+}
+.div3:hover{
+    background-color: black;
+    height: 200px;
+    width: 200px;
+}
+
+
+.div4{
+    background-color: lightgreen;
+    width: 50px;
+    height: 50px;
+    transition: width 5s linear 1s, height 1s linear 0s;
+}
+.div4:hover{
+    background-color: green;
+    height: 200px;
+    width: 200px;
+}

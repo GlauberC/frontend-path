@@ -1,0 +1,30 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.div1{
+    border-style: dotted;
+    border-width: 10px;
+    border-color: blue;
+}
+.div2{
+    border: solid 5px red;
+}
+.div3{
+    border-right: solid 5px blue;
+    border-left: dotted 5px firebrick;
+    border-top: groove 20px forestgreen;
+    border-bottom: outset 10px red;
+}
+.div4{
+    outline: solid 10px black
+}
+.div5{
+    border: dashed 5px green;
+    outline: solid 5px black;
+}

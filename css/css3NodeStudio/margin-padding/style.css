@@ -1,0 +1,28 @@
+/* Margin e padding */
+    .test-padding{
+        background-color: aqua;
+        width: 100px;
+        height: 100px;
+        padding: 10px 5px 5px 0px;
+               /*cima dir baixo esq  */
+        /* 
+        padding-top: 10px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+        padding-left: 0px; 
+        */
+        
+    }
+    .test-margin{
+        background-color: rebeccapurple;
+        width: 100px;
+        height: 100px;
+        margin: 20px 5px 0px 20px
+               /*cima dir baixo esq  */
+        /* 
+        margin-top: 20px;
+        margin-right: 5px;
+        margin-bottom: 0px;
+        margin-left: 20px; 
+        */
+    }

@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=MedievalSharp&display=swap');
+
+
+.texto1{
+    font-family: 'DM Serif Display', serif;
+}
+.texto2{
+    font-family: 'Russo One', sans-serif;
+}
+.texto3{
+    font-family: 'MedievalSharp', cursive;
+}

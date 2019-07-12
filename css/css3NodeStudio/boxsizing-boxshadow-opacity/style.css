@@ -1,0 +1,26 @@
+
+/* boxsizing, boxshadow e opacity */
+    .sboxsiz{
+        background-color: lightgreen;
+        width: 500px;
+        padding-left: 100px
+    }
+    .cboxsiz{
+        background-color: lightcoral;
+        width: 500px;
+        padding-left: 100px;
+        box-sizing: border-box;
+    }
+    .boxshadow{
+        background-color: lightslategray;
+        width: 500px;
+        padding-left: 100px;
+        box-shadow: 5px 5px 1px black
+        /* Horizontal vertical blur cor */
+    }
+    .opacity{
+        background-color: lightblue;
+        width: 500px;
+        padding-left: 100px;
+        opacity: 0.5;
+    }

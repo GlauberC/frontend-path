@@ -1,0 +1,11 @@
+/* Propriedades de dimensão */
+    .dim1{
+        background-color: brown;
+        width: 200px;
+        height: 100px;
+    }
+    .dim2{
+        background-color: lightcoral;
+        min-width: 300px;
+        max-width: 1000px;
+    }

@@ -1,0 +1,15 @@
+/* Seletores */
+    #seletor-id{
+        color: red;
+    }
+    .seletor-classe{
+        color: green;
+    }
+    input[type = "text"]{
+        background-color: blue;
+        color: white;
+    }
+    h2.seletores, h3.seletores{
+        color: teal;
+    }
+

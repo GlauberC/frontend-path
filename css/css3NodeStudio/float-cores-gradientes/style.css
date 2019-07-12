@@ -1,0 +1,51 @@
+div{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    text-align: center;
+}
+.impar{
+    float: left;
+}
+.par{
+    float: right;
+}
+
+.div1{
+    background-color: lightgrey;
+}
+.div2{
+    background-color: #3d3d3d;
+}
+.div3{
+    background-color:rgb(55, 155, 155);
+}
+.div4{
+    background-color:rgba(55, 155, 155, 0.3);
+}
+
+.div5{
+    background-color:hsl(20, 100%, 55%);
+}
+.div6{
+    background-color:hsla(20, 100%, 55%, .3);
+}
+.div7{
+    background:  linear-gradient(red, blue);
+}
+.div8{
+    background:  linear-gradient(to right,red, blue);
+}
+.div9{
+    background: linear-gradient(green, blue, red)
+}
+.div10{
+    background: linear-gradient(to top, green, blue, red)
+}
+.div11{
+    background: linear-gradient(to top left, red, blue, green)
+}
+.div12{
+    background: radial-gradient(red, green)
+}

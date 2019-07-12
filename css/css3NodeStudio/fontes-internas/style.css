@@ -1,0 +1,22 @@
+.texto1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.texto2{
+    font-variant: small-caps;
+    font-size: 20px;
+}
+.texto3{
+    font-weight: bolder;
+    font-style: italic;
+
+}
+.relativo{
+    font-size: 100%;
+}
+.relativo h1{
+    font-size: 3em;   
+    /* 1em = 16px */
+}
+.relativo p{
+    font-size: 1.5em;
+}

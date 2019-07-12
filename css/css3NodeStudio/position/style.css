@@ -1,0 +1,36 @@
+p{
+    margin-bottom: 300px;
+    /* Só pra aumentar a altura da pagina */
+}
+
+.fixo{
+    width: 100%;
+    height: 20px;
+    margin-top: -80px;
+    background-color: rgba(44,44,44,.2);
+    position: fixed;
+}
+.relativo-pagina{
+    width: 100%;
+    height: 20px;
+    background-color: rgba(177,120,122,.3);
+    position: relative;
+    top: 1300px;
+    /* De distância do topo da página */
+
+}
+.absoluto{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(9, 40, 218, 0.3);
+    position: absolute;
+}
+.relativo{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 7, 7, 0.3);
+    position: relative;
+    left: 500px;
+    top: 100px;
+    /* de distância do começo do elemento absoluto */
+}
