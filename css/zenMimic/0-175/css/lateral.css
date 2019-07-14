@@ -1,0 +1,33 @@
+.lateral{
+    float: left;
+    width: 22%;
+    margin: 0px 20px 0px 50px 
+}
+.grupo-link-lateral{
+    border-bottom: solid 2px #E2EBED;
+    padding-bottom: 2px;
+}
+p{
+    font-size: 0.8em;
+}
+.link-titulo-lateral{
+    font-size: 0.9em
+}
+.name-lateral-link{
+    color: black;
+    text-decoration: none;
+}
+section{
+    margin-bottom: 30px;
+}
+.titulo-secao-lateral{
+    font-weight: bold;
+    font-size: 1.1em;
+
+}
+.link-lateral{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 0.9em;
+    border-bottom: solid 2px #E2EBED;
+}
