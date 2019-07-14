@@ -1,0 +1,8 @@
+body{
+    width: 500px;
+    margin: 0 auto;
+}
+.seletor:target{
+    background-color: lightgrey;
+    border: solid 1px black;
+}

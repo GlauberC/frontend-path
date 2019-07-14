@@ -1,0 +1,13 @@
+:root{
+    --bg-color: #cdcdcd;
+    --text-color: black;
+    --paddingBox: 50px;
+    --borderColor: #ab32ab;
+}
+
+div{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    padding: var(--paddingBox);
+    border: solid 2px var(--borderColor)
+}

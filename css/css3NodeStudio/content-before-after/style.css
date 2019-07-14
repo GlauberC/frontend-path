@@ -1,0 +1,6 @@
+.content::before{
+    content: 'Before'
+}
+.content::after{
+    content: 'after'
+}
