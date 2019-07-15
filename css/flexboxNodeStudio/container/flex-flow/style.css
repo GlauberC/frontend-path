@@ -1,0 +1,31 @@
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: lightgray;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+/* flex-flow = União do flex-direction com o flex-wrap */
+.container1{
+    flex-flow: row wrap-reverse
+ 
+}
+.container2{
+    flex-flow: column wrap
+}
+
+
+.item{
+    width: 200px;
+    height: 200px;
+}
+.item1{
+    background-color: lightgreen;
+}
+.item2{
+    background-color: lightcoral;
+}
+.item3{
+    background-color: lightseagreen;
+}
