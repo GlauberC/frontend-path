@@ -1,0 +1,82 @@
+/* 16px - 1em */
+/* 20px - 1.25em */
+/* 24px - 1.5em */
+/* 32px - 2em */
+/* 48px - 3em */
+
+
+/* Titutlos */
+.titulo-principal{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 3em;
+    text-transform: uppercase; 
+    text-align: center;
+}
+.subtitulo-1{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase; 
+    text-align: center;
+}
+.subtitulo-2{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.25em;
+    text-transform: uppercase; 
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Textos */
+.texto-1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.25em;
+}
+.texto-2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+}
+
+/* Citacoes */
+.autor{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    text-align: center;
+}
+.texto-citacao-1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    text-align: center;
+    font-style: italic;
+    text-shadow: black 3px 3px 6px;
+    
+}
+.texto-citacao-2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.25em;
+    text-align: center;
+    font-style: italic;
+}
+
+/* Botões*/
+.btn{
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+/* navbar */
+a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25em;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+a:hover{
+    opacity: 0.5;
+}

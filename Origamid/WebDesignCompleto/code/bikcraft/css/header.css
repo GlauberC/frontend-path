@@ -1,0 +1,41 @@
+header .navbar{
+    width: 100%;
+    background-color: var(--primary-color);
+    height: 100px;
+}
+header .logo-cotainer{
+    width: 100px;
+    margin: 0px 0 19px 55px;
+    padding-top: 19px;
+    float: left;
+}
+header nav ul{
+    float: right;
+    margin: 34px 51px 35px 0px;
+}
+header nav ul li {
+    padding: 20px;
+}
+header nav ul li  a{
+    color: #484B4D
+}
+header .navbar li {
+    display: inline;
+}
+
+.intro-home{
+    background: url("../img/home/bg-intro.png");
+    height: 386px;
+}
+
+header .titulo-principal, header .texto-citacao-2, header .autor {
+    color: var(--alt-text-color)
+}
+
+header .titulo-principal{
+    padding-top: 60px;
+}
+header .btn-container{
+    margin: 60px auto;
+    text-align: center;
+}
