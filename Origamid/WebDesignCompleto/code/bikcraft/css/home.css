@@ -110,5 +110,9 @@
     width: 230px;
     height: 100px;
     text-align: center;
+    
+}
+.qualidade-sec .subtitulo-2{
+    color: var(--secundary-color);
 }
 
