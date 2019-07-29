@@ -28,14 +28,39 @@ header .navbar li {
     height: 386px;
 }
 
+.intro{
+    height: 211px;
+}
+.intro-sobre{
+    background: url("../img/sobre/bg-intro-sobre.png");
+}
+.intro-produtos{
+    background: url("../img/produtos/bg-intro-produtos.png");
+}
+.intro-portfolio{
+    background: url("../img/portfolio/bg-intro-portfolio.png");
+}
+.intro-contato{
+    background: url("../img/contato/bg-intro-contato.png");
+}
+
 header .titulo-principal, header .texto-citacao-2, header .autor {
     color: var(--alt-text-color)
 }
 
-header .titulo-principal{
+
+
+header .titulo-principal, .subtitulo-1{
     padding-top: 60px;
 }
 header .btn-container{
     margin: 60px auto;
     text-align: center;
+}
+header .subtitulo-1, .subtitulo-2{
+    color: var(--alt-text-color)
+}
+
+header .subtitulo-2{
+    text-transform: none;
 }

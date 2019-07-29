@@ -1,6 +1,7 @@
 /* 16px - 1em */
 /* 20px - 1.25em */
 /* 24px - 1.5em */
+
 /* 32px - 2em */
 /* 48px - 3em */
 
@@ -45,10 +46,11 @@
 }
 .texto-citacao-1{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.5em;
+    font-size: 1.75em;
     text-align: center;
     font-style: italic;
     text-shadow: black 3px 3px 6px;
+    color: var(--alt-text-color);
     
 }
 .texto-citacao-2{

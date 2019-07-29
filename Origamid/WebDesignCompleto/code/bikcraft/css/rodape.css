@@ -1,0 +1,47 @@
+footer .rodape-secoes{
+    width: 100%;
+    height: 191px;
+    background-color: var(--secundary-color);
+}
+
+footer .rodape-secoes{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .rodape-secao{
+    width: 300px;
+    height: 140px;
+    padding-top: 40px;
+}
+
+footer .rodape-secao .subtitulo-2{
+    color: var(--primary-color);
+    text-align: left;
+}
+footer .rodape-secao .sep{
+    margin: 10px 0px;
+}
+
+footer .rodape-secao .texto-2{
+    color: var(--alt-text-color)
+}
+
+footer .rodape-redes-sociais li{
+    display: inline;
+    padding: 15px;
+}
+
+
+
+
+footer .direitos{
+    width: 100%;
+    height: 80px;
+    background-color: var(--primary-color);
+}
+footer .direitos .texto-1{
+    font-family: Helvetica, Arial, sans-serif;
+    padding-top: 28px;
+    margin-left: 55px;
+}
