@@ -1,0 +1,64 @@
+.sobre-main .sep{
+    background-color: black;
+    margin: 10px 0px;
+}
+.sobre-container{
+    margin-left: 55px;
+}
+
+.sobre-main .valores .subtitulo-1, .sobre-main .historia .subtitulo-1{
+    text-align: left;
+}
+
+
+.sobre-main ul li{
+    margin-bottom: 1em;
+}
+.sobre-main ul li p::before{
+    content: '- '
+}
+
+.sobre-main .historia{
+    float: left;
+    width: 570px;
+    margin-right: 30px;
+    margin-bottom: 60px;
+}
+.sobre-main .historia p{
+    margin-bottom: 1em;
+}
+
+.sobre-main .valores{
+    float: left;
+    margin-bottom: 60px;
+}
+.sobre-main .img-container{
+    clear: both;
+    width: 970px;
+    margin: 0px auto;
+}
+
+.sobre-qualidade-sec .img-container{
+    width: 802px;
+    margin: 41px auto;
+}
+.sobre-qualidade-sec .lemas{
+    width: 1031px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row; /*default*/
+    flex-wrap: nowrap; /*default*/
+    justify-content: space-between;
+    margin-bottom: 60px;
+
+}
+
+.sobre-qualidade-sec .lema{
+    width: 230px;
+    height: 100px;
+    text-align: center;
+    
+}
+.sobre-qualidade-sec .subtitulo-2{
+    color: var(--secondary-color);
+}

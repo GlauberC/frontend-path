@@ -6,7 +6,7 @@
     font-weight: bold;
 }
 .home-sec .sep{
-    background-color: var(--secundary-color)
+    background-color: var(--secondary-color)
 }
 
 .home-sec .texto-1{
@@ -30,7 +30,7 @@
     margin:30px;
 }
 .produto-box .header-box{
-    background-color: var(--secundary-color);
+    background-color: var(--secondary-color);
     width: 370px;
     height: 200px;
 }
@@ -57,7 +57,7 @@
 /* portfolio sec */
 .portfolio-home{
     width: 100%;
-    background-color: var(--secundary-color);
+    background-color: var(--secondary-color);
     height: 1031px;;
 }
 .portfolio-home .subtitulo-1{
@@ -92,7 +92,7 @@
 
 /* qualidade sec */
 .qualidade-sec .img-container{
-    width: 200px;
+    width: 802px;
     margin: 41px auto;
 }
 .qualidade-sec .lemas{
@@ -113,6 +113,6 @@
     
 }
 .qualidade-sec .subtitulo-2{
-    color: var(--secundary-color);
+    color: var(--secondary-color);
 }
 

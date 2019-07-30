@@ -1,0 +1,87 @@
+.produtos-main .impar{
+
+}
+.produtos-main .img-grande-container{
+    width: 770px;
+    height: 370px;
+    background-repeat: no-repeat;
+}
+
+.passeio .img-grande-container{
+    background-image: url("../img/produtos/foto-passeio-1.png");
+}
+.esporte .img-grande-container{
+    background-image: url("../img/produtos/foto-esporte-1.png");
+}
+.retro .img-grande-container{
+    background-image: url("../img/produtos/foto-retro-1.png");
+}
+
+.produtos-main section{
+    margin-top: 60px;
+}
+
+.produtos-main .img-grande-container .titulo-categoria{
+    height: 74px;
+    padding-top: 144px;
+    color: var(--alt-text-color)
+}
+
+.produtos-main .img-desenho-container{
+    height: 370px;
+    width: 370px;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.produtos-main .img-foto-2{
+    width: 570px;
+    height: 370px;
+}
+.produtos-main .informacao{
+    width: 570px;
+    height: 370px;
+}
+
+.produtos-main .img-desenho-container img{
+    width: 230px;
+    height: 150px;
+}
+.produtos-main .line-1, .line-2{
+    margin: 15px 55px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.produtos-main .informacao-descricao{
+    height: 274px;
+    background-color: var(--secondary-color);
+    color: var(--alt-text-color);
+    text-align: center;
+}
+.produtos-main .informacao-descricao p{
+    margin: 0px 30px 30px 30px;
+    padding-top: 30px;
+    font-size: 1.5em;
+    line-height: 1.25em;
+}
+
+.produtos-main .mural-informacao{
+    width: 570px;
+    height: 96px;
+    background-color: var(--primary-color);
+}
+
+.produtos-main .mural-informacao table{
+    display: grid;
+    grid-template-columns: auto auto;   
+}
+.produtos-main .mural-informacao td{
+    color: var(--secondary-color);
+    width: 283px;
+    height: 46px;
+    border: solid 2px var(--secondary-color); 
+    align-items: center;
+
+}
